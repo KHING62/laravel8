@@ -4,15 +4,15 @@
 <body>
 
     <h2>HTML Image</h2>
-    <img src=" {{ $ant}} " alt="Trulli" width="300" height="330">
+    <a href="gallery/ant" ><img src=" {{ $ant}} " alt="Trulli" width="300" height="330"></a>
 
-    <img src="{{$bird}}" alt="Trulli" width="300" height="330">
+    <a href="gallery/bird" ><img src="{{$bird}}" alt="Trulli" width="300" height="330"></a>
 
-    <img src="{{$cat}}" alt="Trulli" width="300" height="330">
+    <a href="gallery/cat" ><img src="{{$cat}}" alt="Trulli" width="300" height="330"></a>
 
-    <img src="{{$god}}" alt="Trulli" width="300" height="330">
+    <a href="gallery/ant" ><img src="{{$god}}" alt="Trulli" width="300" height="330"></a>
 
-    <img src="{{$spider}}" alt="Trulli" width="300" height="330">
+    <a href="gallery/ant" ><img src="{{$spider}}" alt="Trulli" width="300" height="330"></a>
 </body>
 
 </html>
